@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Employee Form</title>
+</head>
+<body>
+<table border="5" width="600" cellspacing="2" cellpadding="2">
+	<tr>
+		<td colspan="2">Employee Details</td>
+		
+	</tr>
+	<tr>
+		<td>First Name</td>
+		<td><input type="text" name="firstName"></td>
+	</tr>
+	<tr>
+		<td>Last Name</td>
+		<td><input type="text" name="firstName"></td>
+	</tr>
+	<tr>
+		<td>Position</td>
+		<td>
+			<select name="position">
+				<option>Acountant</option>
+				<option>Administrator</option>
+				<option>Technician</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Experience Level</td>
+		<td>
+			<select name="Experience">
+				<option>Entry Level</option>
+				<option>Experienced</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Job Type</td>
+		<td>
+			<input type="checkbox" name="ft" />Full-Time
+			<input type="checkbox" name="pt" />Part-Time
+			<input type="checkbox" name="ct" />Contract
+		</td>
+	</tr>
+	<tr>
+		<td>Employement Status</td>
+		<td>
+			<input type="radio" name="status" name="Employed" />Employed
+			<input type="radio" name="status" name="Unemployed"/>Unemployed
+			<input type="radio" name="status" name="Student"/>Student
+		</td>
+	</tr>
+	<tr>
+		<td>Additional Comments</td>
+		<td>
+			<textarea name="Comments"cols="45"rows="5"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>
+			<input type="submit" name="submit" value="submit">
+			<input type="reset" name="reset" value="reset">
+		</td>
+	</tr>
+</table>
+</body>
+</html>
